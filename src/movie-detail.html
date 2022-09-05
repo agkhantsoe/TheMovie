@@ -13,6 +13,105 @@
     />
   </head>
   <body>
+      <nav class="container navbar navbar-expand-lg position-absolute top-0 start-50 translate-middle mt-5">
+        <div class="container-fluid mt-3">
+          <a class="navbar-brand me-5 text-white" href="#">TheMovie</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item me-5">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+  
+              <li class="nav-item dropdown me-5">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MOVIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">ACTION</a></li>
+                  <li><a class="dropdown-item" href="#">ANIMATED</a></li>
+                  <li><a class="dropdown-item" href="#">DRAMA</a></li>
+                  <li><a class="dropdown-item" href="#">SI-FI</a></li>
+                  <li><a class="dropdown-item" href="#">HORROR</a></li>
+                  <li><a class="dropdown-item" href="#">MISTERY</a></li>
+                  <li><a class="dropdown-item" href="#">CRIME</a></li>
+                  <li><a class="dropdown-item" href="#">HULU</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-5">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SERIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">ENGLISH</a></li>
+                  <li><a class="dropdown-item" href="#">NETFLIX</a></li>
+                  <li><a class="dropdown-item" href="#">HULU</a></li>
+                  <li><a class="dropdown-item" href="#">AMAZON PRIME</a></li>
+                  <li><a class="dropdown-item" href="#">HULU</a></li>
+                </ul>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-white">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex input-group" role="search">
+              <input
+                class="form-control bg-transparent border border-success text-white"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success input-group-btn"
+                type="submit "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <div
       class=" py-4 px-3 mx-auto "
       style="
@@ -22,105 +121,6 @@
       "
     >
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-        <nav class="container navbar navbar-expand-lg">
-          <div class="container-fluid mt-3">
-            <a class="navbar-brand me-5 text-white" href="#">TheMovie</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarScroll"
-              aria-controls="navbarScroll"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul
-                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                style="--bs-scroll-height: 100px"
-              >
-                <li class="nav-item me-5">
-                  <a
-                    class="nav-link active text-white"
-                    aria-current="page"
-                    href="#"
-                    >Home</a
-                  >
-                </li>
-
-                <li class="nav-item dropdown me-5">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    MOVIES
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">ACTION</a></li>
-                    <li><a class="dropdown-item" href="#">ANIMATED</a></li>
-                    <li><a class="dropdown-item" href="#">DRAMA</a></li>
-                    <li><a class="dropdown-item" href="#">SI-FI</a></li>
-                    <li><a class="dropdown-item" href="#">HORROR</a></li>
-                    <li><a class="dropdown-item" href="#">MISTERY</a></li>
-                    <li><a class="dropdown-item" href="#">CRIME</a></li>
-                    <li><a class="dropdown-item" href="#">HULU</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown me-5">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    SERIES
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">ENGLISH</a></li>
-                    <li><a class="dropdown-item" href="#">NETFLIX</a></li>
-                    <li><a class="dropdown-item" href="#">HULU</a></li>
-                    <li><a class="dropdown-item" href="#">AMAZON PRIME</a></li>
-                    <li><a class="dropdown-item" href="#">HULU</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item me-5">
-                  <a class="nav-link text-white">CONTACT</a>
-                </li>
-              </ul>
-              <form class="d-flex input-group" role="search">
-                <input
-                  class="form-control bg-transparent border border-success text-white"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button
-                  class="btn btn-outline-success input-group-btn"
-                  type="submit "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                    />
-                  </svg>
-                </button>
-              </form>
-            </div>
-          </div>
-        </nav>
         <!-- movie ditail -->
         <section
           class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle text-center"
