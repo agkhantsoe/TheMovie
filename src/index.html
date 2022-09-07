@@ -13,272 +13,284 @@
     />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg bg-light sticky-top"
-    >
-      <!-- <div class="container-fluid mt-3"> -->
-        <a class="navbar-brand me-5 text-white" href="#">ZLand</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
+    <header>
+      <nav
+        class=" navbar navbar-expand-lg  fixed-top ps-5 pe-5 bg-dark" style="--bs-bg-opacity: 0.5"
+      >
+        <div class="container-fluid mt-3">
+          <a class="navbar-brand me-5 text-white" href="#">TheMovie</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <li class="nav-item me-5">
-              <a class="nav-link active text-white" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-
-            <li class="nav-item dropdown me-5">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                MOVIES
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">ACTION</a></li>
-                <li><a class="dropdown-item" href="#">ANIMATED</a></li>
-                <li><a class="dropdown-item" href="#">DRAMA</a></li>
-                <li><a class="dropdown-item" href="#">SI-FI</a></li>
-                <li><a class="dropdown-item" href="#">HORROR</a></li>
-                <li><a class="dropdown-item" href="#">MISTERY</a></li>
-                <li><a class="dropdown-item" href="#">CRIME</a></li>
-                <li><a class="dropdown-item" href="#">HULU</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown me-5">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                SERIES
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">ENGLISH</a></li>
-                <li><a class="dropdown-item" href="#">NETFLIX</a></li>
-                <li><a class="dropdown-item" href="#">HULU</a></li>
-                <li><a class="dropdown-item" href="#">AMAZON PRIME</a></li>
-                <li><a class="dropdown-item" href="#">HULU</a></li>
-              </ul>
-            </li>
-            <li class="nav-item me-5">
-              <a class="nav-link text-white">CONTACT</a>
-            </li>
-          </ul>
-          <form class="d-flex  input-group" role="search">
-            <input
-              class="form-control bg-transparent border border-success text-white "
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button
-              class="btn btn-outline-success input-group-btn "
-              type="submit "
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-search"
-                viewBox="0 0 16 16"
+              <li class="nav-item me-5">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item dropdown me-5">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MOVIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">ACTION</a></li>
+                  <li><a class="dropdown-item" href="#">ANIMATED</a></li>
+                  <li><a class="dropdown-item" href="#">DRAMA</a></li>
+                  <li><a class="dropdown-item" href="#">SI-FI</a></li>
+                  <li><a class="dropdown-item" href="#">HORROR</a></li>
+                  <li><a class="dropdown-item" href="#">MISTERY</a></li>
+                  <li><a class="dropdown-item" href="#">CRIME</a></li>
+                  <li><a class="dropdown-item" href="#">HULU</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-5">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SERIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">ENGLISH</a></li>
+                  <li><a class="dropdown-item" href="#">NETFLIX</a></li>
+                  <li><a class="dropdown-item" href="#">HULU</a></li>
+                  <li><a class="dropdown-item" href="#">AMAZON PRIME</a></li>
+                  <li><a class="dropdown-item" href="#">HULU</a></li>
+                </ul>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-white">CONTACT</a>
+              </li>
+            </ul>
+            <form class="d-flex input-group w-25" role="search">
+              <input
+                class="form-control bg-transparent border border-success text-white"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success input-group-btn"
+                type="submit "
               >
-                <path
-                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                />
-              </svg>
-            </button>
-          </form>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  ></path>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
-      <!-- </div> -->
-    </nav>
+      </nav>
+    </header>
 
     <div
       id="carouselExampleControls"
-      class="carousel slide "
+      class="carousel slide"
       data-bs-ride="carousel"
     >
-    <!-- first slide -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-    <div
-      class="py-4 px-3 mx-auto "
-      style="
-        background-image: url('image/dune2.png');
-        min-height: 100vh;
-        background-size: cover;
-      "
-    >
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-        <!-- Hero -->
-        <section>
-          <div class="container py-5">
-            <div class="row mb-4 align-items-center flex-lg-row-reverse">
-              <div class="col-md-6 col-xl-7 mb-4 mb-lg-0">
-                <div class="lc-block position-relative">
-                  <img
-                    class="img-fluid rounded shadow"
-                    src="image/dune2.png"
-                    sizes="(max-width: 3840px) 100vw, 3840px"
-                    width="3840"
-                    height=""
-                    alt="Photo by Richard Horvath"
-                  />
-                  <a
-                    class="position-absolute top-50 start-50 translate-middle glightbox d-flex justify-content-center align-items-center"
-                    target="_blank"
-                    href="https://www.youtube.com/watch?v=8g18jFHCLXk"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="5em"
-                      height="5em"
-                      fill="currentColor"
-                      class="text-white"
-                      viewBox="0 0 16 16"
-                      lc-helper="svg-icon"
-                    >
-                      <path
-                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6 col-xl-5">
-                <div class="lc-block mb-3">
-                  <div editable="rich">
-                    <h1 class="fw-bolder display-2 text-white">
-                      Unlimited MOVIES, TV SHOWS & MORE.
-                    </h1>
-                  </div>
-                </div>
+      <!-- first slide -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="py-4 px-3 mx-auto"
+            style="
+              background-image: url('image/dune2.png');
+              min-height: 100vh;
+              background-size: cover;
+            "
+          >
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+              <!-- Hero -->
+              <section>
+                <div class="container py-5">
+                  <div class="row mb-4 align-items-center flex-lg-row-reverse">
+                    <div class="col-md-6 col-xl-7 mb-4 mb-lg-0">
+                      <div class="lc-block position-relative">
+                        <img
+                          class="img-fluid rounded shadow"
+                          src="image/dune2.png"
+                          sizes="(max-width: 3840px) 100vw, 3840px"
+                          width="3840"
+                          height=""
+                          alt="Photo by Richard Horvath"
+                        />
+                        <a
+                          class="position-absolute top-50 start-50 translate-middle glightbox d-flex justify-content-center align-items-center"
+                          target="_blank"
+                          href="https://www.youtube.com/watch?v=8g18jFHCLXk"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="5em"
+                            height="5em"
+                            fill="currentColor"
+                            class="text-white"
+                            viewBox="0 0 16 16"
+                            lc-helper="svg-icon"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            ></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-xl-5">
+                      <div class="lc-block mb-3">
+                        <div editable="rich">
+                          <h1 class="fw-bolder display-2 text-white">
+                            Unlimited MOVIES, TV SHOWS & MORE.
+                          </h1>
+                        </div>
+                      </div>
 
-                <div class="lc-block mb-4">
-                  <div editable="rich">
-                    <p class="lead text-white">
-                      Welcome to the TheMovie website. Here you can browse and download YIFY movies in excellent 720p, 1080p, 2160p 4K and 3D quality, all at the smallest file size. 
-                    </p>
+                      <div class="lc-block mb-4">
+                        <div editable="rich">
+                          <p class="lead text-white">
+                            Welcome to the TheMovie website. Here you can browse
+                            and download YIFY movies in excellent 720p, 1080p,
+                            2160p 4K and 3D quality, all at the smallest file
+                            size.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="">
+                        <a
+                          class="btn btn-lg btn-outline-success"
+                          target="_blank"
+                          href="test.html"
+                          role="button"
+                          >WATCH NOW</a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="">
-                  <a
-                    class="btn btn-lg btn-outline-success"
-                    target="_blank"
-                    href="test.html"
-                    role="button"
-                    >WATCH NOW</a
-                  >
-                </div>
-              </div>
+              </section>
             </div>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
-    </div>
-    </div>
-    <!-- second slide -->
-    <div class="carousel-inner">
-      <div class="carousel-item ">
-    <div
-      class="py-4 px-3 mx-auto "
-      style="
-        background-image: url('image/jawa.jpg');
-        min-height: 100vh; max-height: 100vh;
-        background-size: cover;
-      "
-    >
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-        <!-- Hero -->
-        <section>
-          <div class="container py-5">
-            <div class="row mb-4 align-items-center flex-lg-row-reverse">
-              <div class="col-md-6 col-xl-7 mb-4 mb-lg-0">
-                <div class="lc-block position-relative" >
-                  <img
-                    class="img-fluid rounded shadow" 
-                    src="image/jawa.jpg"
-                    sizes="(max-width: 3840px) 100vw, 3840px"
-                    width="3840"
-                    height=""
-                    alt="Photo by Richard Horvath"
-                  />
-                  <a
-                    class="position-absolute top-50 start-50 translate-middle glightbox d-flex justify-content-center align-items-center"
-                    target="_blank"
-                    href="https://www.youtube.com/watch?v=U1fu_sA7XhE"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="5em"
-                      height="5em"
-                      fill="currentColor"
-                      class="text-white"
-                      viewBox="0 0 16 16"
-                      lc-helper="svg-icon"
-                    >
-                      <path
-                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
-                      ></path>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6 col-xl-5">
-                <div class="lc-block mb-3">
-                  <div editable="rich">
-                    <h1 class="fw-bolder display-2 text-white">
-                      Unlimited MOVIES, TV SHOWS & MORE.
-                    </h1>
-                  </div>
-                </div>
+      <!-- second slide -->
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <div
+            class="py-4 px-3 mx-auto"
+            style="
+              background-image: url('image/jawa.jpg');
+              min-height: 100vh;
+              max-height: 100vh;
+              background-size: cover;
+            "
+          >
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+              <!-- Hero -->
+              <section>
+                <div class="container py-5">
+                  <div class="row mb-4 align-items-center flex-lg-row-reverse">
+                    <div class="col-md-6 col-xl-7 mb-4 mb-lg-0">
+                      <div class="lc-block position-relative">
+                        <img
+                          class="img-fluid rounded shadow"
+                          src="image/jawa.jpg"
+                          sizes="(max-width: 3840px) 100vw, 3840px"
+                          width="3840"
+                          height=""
+                          alt="Photo by Richard Horvath"
+                        />
+                        <a
+                          class="position-absolute top-50 start-50 translate-middle glightbox d-flex justify-content-center align-items-center"
+                          target="_blank"
+                          href="https://www.youtube.com/watch?v=U1fu_sA7XhE"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="5em"
+                            height="5em"
+                            fill="currentColor"
+                            class="text-white"
+                            viewBox="0 0 16 16"
+                            lc-helper="svg-icon"
+                          >
+                            <path
+                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                            ></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-xl-5">
+                      <div class="lc-block mb-3">
+                        <div editable="rich">
+                          <h1 class="fw-bolder display-2 text-white">
+                            Unlimited MOVIES, TV SHOWS & MORE.
+                          </h1>
+                        </div>
+                      </div>
 
-                <div class="lc-block mb-4">
-                  <div editable="rich">
-                    <p class="lead text-white">
-                      Welcome to the TheMovie website. Here you can browse and download YIFY movies in excellent 720p, 1080p, 2160p 4K and 3D quality, all at the smallest file size. 
-                    </p>
+                      <div class="lc-block mb-4">
+                        <div editable="rich">
+                          <p class="lead text-white">
+                            Welcome to the TheMovie website. Here you can browse
+                            and download YIFY movies in excellent 720p, 1080p,
+                            2160p 4K and 3D quality, all at the smallest file
+                            size.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="">
+                        <a
+                          class="btn btn-lg btn-outline-success"
+                          target="_blank"
+                          href="test.html"
+                          role="button"
+                          >WATCH NOW</a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="">
-                  <a
-                    class="btn btn-lg btn-outline-success"
-                    target="_blank"
-                    href="test.html"
-                    role="button"
-                    >WATCH NOW</a
-                  >
-                </div>
-              </div>
+              </section>
             </div>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
-    </div>
-    </div>
 
-    <button
+      <button
         class="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleControls"
@@ -462,7 +474,9 @@
             <span>Our Services</span>
             <h2 class="movie_info">Download Your Shows Watch Offline.</h2>
             <p class="movie_info">
-              Welcome to the official YTS.MX (.LT) website. Here you can browse and download YIFY movies in excellent 720p, 1080p, 2160p 4K and 3D quality, all at the smallest file size. 
+              Welcome to the official YTS.MX (.LT) website. Here you can browse
+              and download YIFY movies in excellent 720p, 1080p, 2160p 4K and 3D
+              quality, all at the smallest file size.
             </p>
             <h2 class="movie_info">Enjoy On Your TV.</h2>
             <p class="movie_info">
@@ -576,7 +590,7 @@
       </div>
     </section>
     <!-- best tv series -->
-    <section class="bg-dark" style="--bs-bg-opacity: 0.8">
+    <section class="bg-dark">
       <div class="container py-5" style="min-height: 100vh">
         <p class="text-center text-white">BEST TV SERIES</p>
         <h2 class="text-center text-white m-3">World Best TV Series</h2>
@@ -639,7 +653,7 @@
       </div>
     </section>
     <!-- trial -->
-    <section class="bg-warning">
+    <section class="bg-dark" style="--bs-bg-opacity: 0.8">
       <div class="container">
         <div
           class="row d-flex justify-content-between align-items-center"
