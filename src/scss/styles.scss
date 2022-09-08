@@ -18,9 +18,7 @@ img {
 nav ul li a:hover{
   color: #198754 !important;
 }
-h2:hover{
-  color: red;
-}
+
 .navBtn {
   width: 6em;
 }
@@ -62,14 +60,8 @@ img {
   height: 4rem;
 }
 
-// test
-.container-box {
-  width: 50%;
-  height: 50%;
+// footer
+footer div a:hover{
+  color: #198754;
 }
-.img-zoom{
-    object-fit: cover;
-}
-.img-zoom:hover {
-  background-color: #198754;
-}
+
